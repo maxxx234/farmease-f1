@@ -2,11 +2,13 @@ import React from "react";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
 
-import WhyChoose from "./WhyChoose";
+
+
 import OurFeatures from "./OurFeatures";
 import GetInTouch from "./GetinTouch";
 import ChatBot from "./Chatbot";
-
+import WhyChoose from "./whyChoose";
+// import WhyChoose from "./WhyChoose";
 
 function MainPage() {
   return (
@@ -19,6 +21,7 @@ function MainPage() {
       
         <HeroSection />
         <WhyChoose/>
+      
         <OurFeatures />
         <ChatBot/>
         <GetInTouch/>
