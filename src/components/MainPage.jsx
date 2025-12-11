@@ -8,9 +8,8 @@ import OurFeatures from "./OurFeatures";
 import GetInTouch from "./GetinTouch";
 // import ChatBot from "./ChatBot";
 import ChatWidget from "./Chatbot";
-// import WhyChoose from "./whyChoose";
+;
 import WhyChoose from "./whyChoose";
-
 function MainPage() {
   return (
     <>
@@ -23,6 +22,7 @@ function MainPage() {
         <HeroSection />
         {/* <WhyChoose/> */}
       <WhyChoose/>
+      
         <OurFeatures />
     
         <ChatWidget/>
