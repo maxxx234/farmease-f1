@@ -24,9 +24,9 @@ function MainPage() {
         {/* <WhyChoose/> */}
       <WhyChoose/>
         <OurFeatures />
-        <ChatBot/>
+    
         <ChatWidget/>
-<ChatWidget/>
+
         <GetInTouch/>
      
    
