@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import HeroSection from "./HeroSection";
+
 import WhyChoose from "./WhyChoose";
 import OurFeatures from "./OurFeatures";
 import GetInTouch from "./GetinTouch";
@@ -17,7 +18,7 @@ function MainPage() {
       {/* ✅ Main Content */}
       
         <HeroSection />
-        <WhyChoose />
+        <WhyChoose/>
         <OurFeatures />
         <ChatBot/>
         <GetInTouch/>
